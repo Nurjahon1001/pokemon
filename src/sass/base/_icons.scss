@@ -1,0 +1,42 @@
+.ico {
+   cursor: pointer;
+   display: inline-block;
+}
+
+.ico_dropdown {
+   color: $color-icons;
+
+   i {
+      font-weight: 900;
+      font-size: 20px;
+   }
+}
+
+.fa-heart {
+   color: $color-icons;
+   font-weight: 900;
+   font-size: 25px;
+   padding-top: 5px;
+}
+
+.site_logo {
+   position: relative;
+}
+
+.canvas_heart {
+   position: absolute;
+   font-size: 40px;
+   top: 0;
+   right: 0;
+}
+
+// offcanvas icons
+
+.fa-chevron-right {
+   position: absolute;
+   color: $color-icons;
+   font-weight: 900;
+   font-size: 30px;
+   top: 30px;
+   left: 30px;
+}

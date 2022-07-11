@@ -1,0 +1,21 @@
+.offcanvas{
+   position: absolute;
+   top:-50px;
+   left: -100%;
+}
+
+.active{
+   left: 1380px;
+}
+
+.off-canvas_cards{
+   width: $offcanvas-width;
+   height: 1715px;
+   position: relative;
+   background-color: $color-offcanvas-bg;
+   padding: 100px 115px 0 114px;
+   overflow: hidden;
+   gap: 50px;
+   border: $border;
+   backdrop-filter: blur(20px);
+}

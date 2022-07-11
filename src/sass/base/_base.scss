@@ -1,0 +1,28 @@
+html {
+   width: $html-width;
+   height: $html-height;
+   margin: auto
+}
+
+*{
+   @extend %font-primary;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background-color: $color-background;
+}
+
+.main-wrapper{
+   position: relative;
+   width: $html-width;
+   // overflow: hidden;
+}
+
+.container {
+   width: $content-width;
+   margin: 50px auto;
+   text-align: center;
+}

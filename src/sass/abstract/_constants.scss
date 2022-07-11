@@ -1,0 +1,15 @@
+// colors
+$color-background:  #FFD845;
+$color-icons: #159861;
+$color-offcanvas-bg: #FFEDA9;
+$color-white: #FFFFFF;
+
+// border
+$border: 2px solid #000000;
+
+// width
+$html-width: 1920px;
+$html-height: 1715px;
+$content-width: $html-width - ( 301 * 2);
+$nav-buttons-width: $html-width - (398px + 397px);
+$offcanvas-width: 536px;

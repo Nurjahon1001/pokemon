@@ -1,14 +1,16 @@
-.offcanvas{
+.offcanvas {
    position: absolute;
-   top:-50px;
+   top: 0;
    left: -100%;
+   gap: 50px;
 }
 
-.active{
+.active {
    left: 1380px;
+   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
 }
 
-.off-canvas_cards{
+.off-canvas_cards {
    width: $offcanvas-width;
    height: 1715px;
    position: relative;
@@ -17,5 +19,4 @@
    overflow: hidden;
    gap: 50px;
    border: $border;
-   backdrop-filter: blur(20px);
 }

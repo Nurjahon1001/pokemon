@@ -322,20 +322,24 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
+  margin: 0;
   background-color: #FFD845;
 }
 
 .main-wrapper {
+  background-color: #FFD845;
   position: relative;
   width: 1920px;
 }
 
 .container {
   width: 1318px;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -464,12 +468,14 @@ body {
 
 .offcanvas {
   position: absolute;
-  top: -50px;
+  top: 0;
   left: -100%;
+  gap: 50px;
 }
 
 .active {
   left: 1380px;
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
 }
 
 .off-canvas_cards {
@@ -481,6 +487,4 @@ body {
   overflow: hidden;
   gap: 50px;
   border: 2px solid #000000;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
 }/*# sourceMappingURL=styles.css.map */

@@ -9,20 +9,23 @@ html {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
+   transition: all 0.3s ease-in-out;
 }
 
 body{
+   margin: 0;
    background-color: $color-background;
 }
 
 .main-wrapper{
+   background-color: $color-background;
    position: relative;
    width: $html-width;
-   // overflow: hidden;
 }
 
 .container {
    width: $content-width;
-   margin: 50px auto;
+   margin: 0 auto;
+   padding-top: 50px;
    text-align: center;
 }
